@@ -16,17 +16,17 @@ const translations = {
         },
         about: {
             title: "À Propos",
-            content: "Data Engineer passionné par l'IA, le Cloud Computing et le DevOps. Je combine expertise technique et vision stratégique pour concevoir des solutions data innovantes et scalables. Actuellement en alternance chez Thales Alenia Space, je développe des pipelines de données et automatise le traitement des données de tests."
+            content: "Ingénieur Systems passionné par l'ingénierie systems. Je combine expertise technique et vision stratégique pour concevoir des modèles de systèmes. Je sais Concevoir des modèles dynamiques sur simulink mais aussi du MBSE sur Capella."
         },
         projects: {
             title: "Mes Projets",
             viewOnGithub: "Voir sur GitHub",
             foodTracking: {
-                title: "Food Tracking DE/ML",
+                title: "Conception de pilote automatique pour un drone",
                 description: "• Collecte de données via API et stockage sur AWS S3\n• ETL avec Python/DuckDB pour le traitement des données\n• Orchestration des pipelines avec Apache Airflow\n• CI/CD avec GitHub Actions et déploiement automatisé\n• Containerisation avec Docker pour la portabilité\n• Analyse ML : clustering et détection d'anomalies\n• Interface Streamlit pour visualisation et monitoring"
             },
             sensorApi: {
-                title: "Sensor API Generator",
+                title: "Modélisation et Optimisation du stockage d'énergie Photovoltaique",
                 description: "• API FastAPI pour la génération de données IoT\n• Containerisation Docker et déploiement cloud\n• Documentation OpenAPI et tests automatisés\n• Simulation en temps réel d'environnements IoT\n• Interface REST pour la configuration des capteurs\n• Monitoring des performances et des métriques"
             },
             smartRevision: {
@@ -37,16 +37,16 @@ const translations = {
         skills: {
             title: "Compétences",
             dataEngineering: {
-                title: "Data Engineering",
-                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
+                title: "Langage de Programmation",
+                items: ["Python", "Matlab", "C", "C++"]
             },
             dataScience: {
                 title: "Data Science & IA",
-                items: ["TensorFlow", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
+                items: [""Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization","Pandas","SckitLearn"]
             },
-            cloudBigData: {
-                title: "Cloud & Big Data",
-                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
+            Modélisation_MBSE: {
+                title: "MBSE & Gestion d'exigences",
+                items: ["Capella", "IBM DOORS"]
             },
             devops: {
                 title: "DevOps",
@@ -75,8 +75,8 @@ const translations = {
                     },
                     {
                         period: "2019 - 2022",
-                        title: "Licence Electrmécanique",
-                        institution: "Université Paris Saclay, Algérie"
+                        title: "Licence Electromécanique",
+                        institution: "Université Mentouri, Algérie"
                     }
                 ]
             },
@@ -90,10 +90,10 @@ const translations = {
                         description: "Modélisation et Controle d'adhérence de pneu d'avion"
                     },
                     {
-                        period: "2022",
-                        title: "Data Engineer",
-                        company: "EDF Cap Ampère, Saint-Denis",
-                        description: "Contrôle des programmes de maintenance dans les CNPE"
+                        period: "Juin 2023-Septembre 2023",
+                        title: "Electronics Enginneer en Stage",
+                        company: "Laboratoire GeePs, Gif-sur-Yvettes",
+                        description: "Caractérisation de Capteurs MEMS"
                     },
                     {
                         period: "2021",
