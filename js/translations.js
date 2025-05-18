@@ -10,9 +10,9 @@ const translations = {
         },
         home: {
             greeting: "Bonjour !",
-            name: "Yann GUEGUEN",
-            title: "Data Engineer",
-            bio: "Passionné par l'analyse de données, l'IA, le Cloud et le DevOps."
+            name: "DAGNON Sidi",
+            title: "System Engineer",
+            bio: "Passionné par l'ingénierie système, la Modélisation et le Controle de Système."
         },
         about: {
             title: "À Propos",
@@ -63,20 +63,20 @@ const translations = {
                 title: "Formation",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Master Data Science",
-                        institution: "DSTI"
+                        period: "2024 - 2025",
+                        title: "DU Management Entrepreunarial",
+                        institution: "Université Paris Saclay"
                     },
                     {
-                        period: "2018 - 2021",
-                        title: "Diplôme d'Ingénieur - Filière SINERGIE",
-                        institution: "ENSEM Nancy",
-                        description: "Spécialisation en informatique et sûreté"
+                        period: "2022 - 2024",
+                        title: "Master Génie Electrique : Electronique, Energie Electrique et Automatique",
+                        institution: "Université Paris Saclay",
+                        description: "Systèmes Aéronautiques"
                     },
                     {
-                        period: "2016 - 2018",
-                        title: "Classes Préparatoires PCSI/PSI",
-                        institution: "Saint Stanislas, Nantes"
+                        period: "2019 - 2022",
+                        title: "Licence Electrmécanique",
+                        institution: "Université Paris Saclay, Algérie"
                     }
                 ]
             },
@@ -84,10 +84,10 @@ const translations = {
                 title: "Expérience Professionnelle",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Data Engineer en Alternance",
-                        company: "Thales Alenia Space, Cannes",
-                        description: "Automatisation du traitement des données de tests"
+                        period: "Mars 2024 - Septembre 2024",
+                        title: "Systems Engineer en Stage",
+                        company: "Safran, Vélizy",
+                        description: "Modélisation et Controle d'adhérence de pneu d'avion"
                     },
                     {
                         period: "2022",
@@ -122,9 +122,9 @@ const translations = {
         },
         home: {
             greeting: "Hello!",
-            name: "Yann GUEGUEN",
-            title: "Data Engineer",
-            bio: "Passionate about data analysis, AI, Cloud and DevOps."
+            name: "Sidi DAGNON",
+            title: "System Engineer",
+            bio: "Passionate about systems Engineering."
         },
         about: {
             title: "About",
