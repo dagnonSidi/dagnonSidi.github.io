@@ -115,3 +115,8 @@ footer {
     background-color: var(--primary-color);
     color: var(--secondary-text-color);
 }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
