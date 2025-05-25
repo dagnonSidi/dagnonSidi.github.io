@@ -85,12 +85,7 @@ const translations = {
             professional: {
                 title: "Expérience Professionnelle",
                 items: [
-                    {
-                        period: "2023 - 2025",
-                        title: "Data Engineer en Alternance",
-                        company: "Thales Alenia Space, Cannes",
-                        description: "Automatisation du traitement des données de tests"
-                    },
+            
                     {
                         period: "Mars 2024 - Septembre 2024",
                         title: "Stagiaire Ingénieur Systèmes",
