@@ -10,13 +10,13 @@ const translations = {
         },
         home: {
             greeting: "Bonjour !",
-            name: "Yann GUEGUEN",
-            title: "Data Engineer",
-            bio: "Passionné par l'analyse de données, l'IA, le Cloud et le DevOps."
+            name: "Sidi DAGNON",
+            title: "System Engineer",
+            bio: "Passionné par l'ingénierie Systèmes, la modélisation, et le Controle de systèmes dynamiques."
         },
         about: {
             title: "À Propos",
-            content: "Data Engineer passionné par l'IA, le Cloud Computing et le DevOps. Je combine expertise technique et vision stratégique pour concevoir des solutions data innovantes et scalables. Actuellement en alternance chez Thales Alenia Space, je développe des pipelines de données et automatise le traitement des données de tests."
+            content: "System Engineer passionné par l'ingénierie système. Je combine expertise technique et vision stratégique pour concevoir des systèmes innovants."
         },
         projects: {
             title: "Mes Projets",
@@ -36,25 +36,23 @@ const translations = {
         },
         skills: {
             title: "Compétences",
-            dataEngineering: {
-                title: "Data Engineering",
-                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
+            SystemsEngineering: {
+                title: "Systems Engineering",
+                items: ["Simulink", "Simscape", "Capella", "IBM Doors", "UML"]
             },
             dataScience: {
-                title: "Data Science & IA",
-                items: ["TensorFlow", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
+                title: "Data Science",
+                items: ["SckitLearn", "Machine Learning", "Panda", "Data Analysis", "Data Visualization"]
             },
-            cloudBigData: {
-                title: "Cloud & Big Data",
-                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
+            Programmation: {
+                title: "Langages de Programmation",
+                items: ["Matlab", "Python", "C", "C++"]
             },
-            devops: {
-                title: "DevOps",
-                items: ["Docker", "CI/CD", "GitHub Actions", "Linux", "Shell/Bash"]
+            reseaux: {
+                title: "Protocoles & Reseaux",
+                items: ["ARINC 429", "AFDX"]
             },
-            webDev: {
-                title: "Développement Web",
-                items: ["JavaScript", "HTML", "CSS"]
+
             }
         },
         experience: {
@@ -63,20 +61,21 @@ const translations = {
                 title: "Formation",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Master Data Science",
-                        institution: "DSTI"
+                        period: "2022 - 2024",
+                        title: "Master Electronique, Energie Electrique et Automatique",
+                        institution: "Université Paris Saclay",
+                        description: "Spécialisation systèmes Aéronautiques"
                     },
                     {
-                        period: "2018 - 2021",
-                        title: "Diplôme d'Ingénieur - Filière SINERGIE",
-                        institution: "ENSEM Nancy",
-                        description: "Spécialisation en informatique et sûreté"
+                        period: "2019 - 2022",
+                        title: "Licence Electromécanique",
+                        institution: "Université Mentouri, Algérie",
+                        
                     },
                     {
-                        period: "2016 - 2018",
-                        title: "Classes Préparatoires PCSI/PSI",
-                        institution: "Saint Stanislas, Nantes"
+                        period: "2024 - 2025",
+                        title: "Management Entrepreunarial",
+                        institution: "Université Paris Saclay"
                     }
                 ]
             },
@@ -84,23 +83,18 @@ const translations = {
                 title: "Expérience Professionnelle",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Data Engineer en Alternance",
-                        company: "Thales Alenia Space, Cannes",
-                        description: "Automatisation du traitement des données de tests"
+                        period: "Mars 2024 - Septembre 2024",
+                        title: "System Engineer en Stage",
+                        company: "Safran Landing Systems, Vélizy",
+                        description: "Modélisation et Controle de système"
                     },
                     {
-                        period: "2022",
-                        title: "Data Engineer",
-                        company: "EDF Cap Ampère, Saint-Denis",
-                        description: "Contrôle des programmes de maintenance dans les CNPE"
+                        period: "2023",
+                        title: "Electronic Engineer",
+                        company: "Laboratoire GeePs, Gif-Sur-Yvettes",
+                        description: "Caractérisation de capteurs & Expérimentatio et validation"
                     },
-                    {
-                        period: "2021",
-                        title: "Stage Ingénieur",
-                        company: "EDF CNPE de Chinon",
-                        description: "Optimisation des programmes de maintenance"
-                    }
+                  
                 ]
             }
         },
@@ -122,13 +116,13 @@ const translations = {
         },
         home: {
             greeting: "Hello!",
-            name: "Yann GUEGUEN",
-            title: "Data Engineer",
-            bio: "Passionate about data analysis, AI, Cloud and DevOps."
+            name: "Sidi DAGNON",
+            title: "System Engineer",
+            bio: "Passionate about System Enginering, System Modeling, and Control."
         },
         about: {
             title: "About",
-            content: "Data Engineer passionate about AI, Cloud Computing, and DevOps. I combine technical expertise with strategic vision to design innovative and scalable data solutions. Currently working as an apprentice at Thales Alenia Space, developing data pipelines and automating test data processing."
+            content: "System Engineer passionate about System Modeling and Control. I combine technical expertise with strategic vision to design innovative Systems."
         },
         projects: {
             title: "My Projects",
@@ -148,26 +142,23 @@ const translations = {
         },
         skills: {
             title: "Skills",
-            dataEngineering: {
-                title: "Data Engineering",
-                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
+            SystemsEngineering: {
+                title: "Systems Engineering",
+                items: ["Simulink", "Simscape", "Capella", "IBM Doors", "UML"]
             },
             dataScience: {
                 title: "Data Science & AI",
-                items: ["TensorFlow", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
+                items: ["SckitLearn", "Machine Learning", "Panda", "Data Analysis", "Data Visualization"]
             },
-            cloudBigData: {
-                title: "Cloud & Big Data",
-                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
+            Programming: {
+                title: "Programming Languages",
+                items: ["Matlab", "Python", "C", "C++"]
             },
-            devops: {
-                title: "DevOps",
-                items: ["Docker", "CI/CD", "GitHub Actions", "Linux", "Shell/Bash"]
+            Networks: {
+                title: "Networks",
+                items: ["ARINC 429", "AFDX"]
             },
-            webDev: {
-                title: "Web Development",
-                items: ["JavaScript", "HTML", "CSS"]
-            }
+           
         },
         experience: {
             title: "Experience & Education",
@@ -175,20 +166,21 @@ const translations = {
                 title: "Education",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Master's in Data Science",
-                        institution: "DSTI"
+                        period: "2022 - 2024",
+                        title: "Master's in Electrical Engineering",
+                        institution: "Université Paris Saclay, France"
+                        description: "Specialization in Aeronautical Systems"
                     },
                     {
-                        period: "2018 - 2021",
-                        title: "Engineering Degree - SINERGIE Program",
-                        institution: "ENSEM Nancy",
-                        description: "Specialization in computer science and safety"
+                        period: "2019 - 2022",
+                        title: "Bachelor in Electromechanichal",
+                        institution: "Université Mentouri, Algeria",
+                        
                     },
                     {
-                        period: "2016 - 2018",
-                        title: "Preparatory Classes PCSI/PSI",
-                        institution: "Saint Stanislas, Nantes"
+                        period: "2024 - 2025",
+                        title: "Management and Entrepreunarial",
+                        institution: "Université Paris Saclay"
                     }
                 ]
             },
@@ -196,23 +188,18 @@ const translations = {
                 title: "Professional Experience",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Data Engineer Apprentice",
-                        company: "Thales Alenia Space, Cannes",
-                        description: "Automation of test data processing"
+                        period: "2024",
+                        title: "System Engineer Intern",
+                        company: "Safran Landing Systems, Vélizy",
+                        description: "System Modeling and control"
                     },
                     {
-                        period: "2022",
-                        title: "Data Engineer",
-                        company: "EDF Cap Ampère, Saint-Denis",
-                        description: "Control of maintenance programs in nuclear power plants"
+                        period: "2023",
+                        title: "Electronic Engineer",
+                        company: "Laboratory GeePs, Gif-Sur-Yvette",
+                        description: "MEMS Sensors Characterization & Experimentation and systems Validation"
                     },
-                    {
-                        period: "2021",
-                        title: "Engineering Intern",
-                        company: "EDF CNPE de Chinon",
-                        description: "Optimization of maintenance programs"
-                    }
+                   
                 ]
             }
         },
