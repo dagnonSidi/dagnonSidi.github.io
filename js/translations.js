@@ -146,7 +146,7 @@ const translations = {
         skills: {
             title: "Compétences",
             dataEngineering: {
-                title: "Ingénierie Systemès",
+                title: "Systems Engineering",
                 items: ["Simulink", "Simscape", "Capella", "IBM DOORS", "UML"]
             },
             dataScience: {
@@ -154,16 +154,16 @@ const translations = {
                 items: ["Scikit-Learn", "Machine Learning", "Pandas", "Analyse de Données", "Visualisation"]
             },
             cloudBigData: {
-                title: "Langages de Programmation",
+                title: "Programming Languages",
                 items: ["Matlab", "Python", "C", "C++"]
             },
             devops: {
-                title: "Réseaux, protocoles & Normes",
+                title: "Networks and Technical Standards",
                 items: ["ARINC 429", "AFDX", "DO 254", "DO-178"]
             },
             webDev: {
-                title: "Secteurs",
-                items: ["Aeronautique", "Automobile", "Ferroviaire","Energie Electrique"]
+                title: "Sectors",
+                items: ["Aeronautics", "Automotive", "Railway","Electrical Energy"]
             }
         },
         experience: {
@@ -181,7 +181,7 @@ const translations = {
                         period: "2019 - 2022",
                         title: "Bachelor in Electromechanical Engineering",
                         institution: "Université Mentouri, Algeria",
-                        description: "Strong foundation in electromechanical systems"
+                        description: "Specialization in electromechanical systems"
                     },
                     {
                         period: "2024 - 2025",
@@ -206,12 +206,7 @@ const translations = {
                         company: "GeePs Laboratory, Gif-sur-Yvette",
                         description: "MEMS sensor characterization, experimentation and validation"
                     },
-                    {
-                        period: "2021",
-                        title: "Engineering Intern",
-                        company: "EDF CNPE de Chinon",
-                        description: "Optimization of maintenance programs"
-                    }
+                  
                 ]
             }
         },
