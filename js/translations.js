@@ -144,26 +144,26 @@ const translations = {
             }
         },
         skills: {
-            title: "Skills",
+            title: "Compétences",
             dataEngineering: {
-                title: "Data Engineering",
+                title: "Ingénierie Systemès",
                 items: ["Simulink", "Simscape", "Capella", "IBM DOORS", "UML"]
             },
             dataScience: {
-                title: "Data Science & AI",
-                items: ["Scikit-Learn", "Machine Learning", "Pandas", "Data Analysis", "Data Visualization"]
+                title: "Data Science & IA",
+                items: ["Scikit-Learn", "Machine Learning", "Pandas", "Analyse de Données", "Visualisation"]
             },
             cloudBigData: {
-                title: "Cloud & Big Data",
+                title: "Langages de Programmation",
                 items: ["Matlab", "Python", "C", "C++"]
             },
             devops: {
-                title: "DevOps",
-                items: ["ARINC 429", "AFDX"]
+                title: "Réseaux, protocoles & Normes",
+                items: ["ARINC 429", "AFDX", "DO 254", "DO-178"]
             },
             webDev: {
-                title: "Web Development",
-                items: ["JavaScript", "HTML", "CSS"]
+                title: "Secteurs",
+                items: ["Aeronautique", "Automobile", "Ferroviaire","Energie Electrique"]
             }
         },
         experience: {
