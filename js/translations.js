@@ -53,8 +53,8 @@ const translations = {
                 items: ["ARINC 429", "AFDX", "DO 254", "DO-178"]
             },
             webDev: {
-                title: "Développement Web",
-                items: ["JavaScript", "HTML", "CSS"]
+                title: "Secteurs",
+                items: ["Aeronautique", "Automobile", "Ferroviaire","Energie Electrique"]
             }
         },
         experience: {
@@ -72,11 +72,11 @@ const translations = {
                         period: "2019 - 2022",
                         title: "Licence Électromécanique",
                         institution: "Université Mentouri, Algérie",
-                        description: "Bases solides en systèmes électromécaniques"
+                        description: "Spécialisation systèmes électromécaniques"
                     },
                     {
                         period: "2024 - 2025",
-                        title: "Management Entrepreneurial",
+                        title: "Diplome Universitaire Management Entrepreneurial",
                         institution: "Université Paris-Saclay",
                         description: "Compétences en gestion de projet et innovation"
                     }
