@@ -10,13 +10,13 @@ const translations = {
         },
         home: {
             greeting: "Bonjour !",
-            name: "Sidi DAGNON",
-            title: "Ingénieur Systèmes",
-            bio: "Passionné par l'ingénierie Systèmes, la modélisation, et le contrôle de systèmes dynamiques."
+            name: "Yann GUEGUEN",
+            title: "Data Engineer",
+            bio: "Passionné par l'analyse de données, l'IA, le Cloud et le DevOps."
         },
         about: {
             title: "À Propos",
-            content: "Ingénieur Systèmes passionné par l'ingénierie système. Je combine expertise technique et vision stratégique pour concevoir des systèmes innovants."
+            content: "Data Engineer passionné par l'IA, le Cloud Computing et le DevOps. Je combine expertise technique et vision stratégique pour concevoir des solutions data innovantes et scalables. Actuellement en alternance chez Thales Alenia Space, je développe des pipelines de données et automatise le traitement des données de tests."
         },
         projects: {
             title: "Mes Projets",
@@ -26,31 +26,35 @@ const translations = {
                 description: "• Collecte de données via API et stockage sur AWS S3\n• ETL avec Python/DuckDB pour le traitement des données\n• Orchestration des pipelines avec Apache Airflow\n• CI/CD avec GitHub Actions et déploiement automatisé\n• Containerisation avec Docker pour la portabilité\n• Analyse ML : clustering et détection d'anomalies\n• Interface Streamlit pour visualisation et monitoring"
             },
             sensorApi: {
-                title: "Générateur d'API Capteurs",
-                description: "• API FastAPI pour la génération de données IoT\n• Containerisation Docker et déploiement cloud\n• Documentation OpenAPI et tests automatisés\n• Simulation en temps réel d'environnements IoT\n• Interface REST pour configurer les capteurs\n• Monitoring des performances et des métriques"
+                title: "Sensor API Generator",
+                description: "• API FastAPI pour la génération de données IoT\n• Containerisation Docker et déploiement cloud\n• Documentation OpenAPI et tests automatisés\n• Simulation en temps réel d'environnements IoT\n• Interface REST pour la configuration des capteurs\n• Monitoring des performances et des métriques"
             },
             smartRevision: {
-                title: "Application de Révision Intelligente",
-                description: "• Application web de création de cartes de révision\n• Système de répétition espacée basé sur la difficulté\n• Interface intuitive pour la gestion des decks\n• Backend Python avec stockage des données\n• Frontend responsive en HTML/CSS/JavaScript\n• Suivi de la progression"
+                title: "Smart Revision App",
+                description: "• Application web de création de cartes de révision\n• Système de répétition espacée basé sur la difficulté\n• Interface utilisateur intuitive pour la création et gestion des decks\n• Backend Python avec stockage des données\n• Frontend responsive en HTML/CSS/JavaScript\n• Système de progression et de suivi des révisions"
             }
         },
         skills: {
             title: "Compétences",
-            SystemsEngineering: {
-                title: "Ingénierie Système",
-                items: ["Simulink", "Simscape", "Capella", "IBM DOORS", "UML"]
+            dataEngineering: {
+                title: "Data Engineering",
+                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
             },
             dataScience: {
-                title: "Data Science",
-                items: ["Scikit-Learn", "Machine Learning", "Pandas", "Analyse de Données", "Visualisation"]
+                title: "Data Science & IA",
+                items: ["TensorFlow", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
             },
-            Programming: {
-                title: "Langages de Programmation",
-                items: ["Matlab", "Python", "C", "C++"]
+            cloudBigData: {
+                title: "Cloud & Big Data",
+                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
             },
-            Networks: {
-                title: "Protocoles & Réseaux",
-                items: ["ARINC 429", "AFDX"]
+            devops: {
+                title: "DevOps",
+                items: ["Docker", "CI/CD", "GitHub Actions", "Linux", "Shell/Bash"]
+            },
+            webDev: {
+                title: "Développement Web",
+                items: ["JavaScript", "HTML", "CSS"]
             }
         },
         experience: {
@@ -59,22 +63,20 @@ const translations = {
                 title: "Formation",
                 items: [
                     {
-                        period: "2022 - 2024",
-                        title: "Master Electronique, Énergie Électrique et Automatique",
-                        institution: "Université Paris-Saclay",
-                        description: "Spécialisation en systèmes aéronautiques"
+                        period: "2023 - 2025",
+                        title: "Master Data Science",
+                        institution: "DSTI"
                     },
                     {
-                        period: "2019 - 2022",
-                        title: "Licence Électromécanique",
-                        institution: "Université Mentouri, Algérie",
-                        description: "Bases solides en systèmes électromécaniques"
+                        period: "2018 - 2021",
+                        title: "Diplôme d'Ingénieur - Filière SINERGIE",
+                        institution: "ENSEM Nancy",
+                        description: "Spécialisation en informatique et sûreté"
                     },
                     {
-                        period: "2024 - 2025",
-                        title: "Management Entrepreneurial",
-                        institution: "Université Paris-Saclay",
-                        description: "Compétences en gestion de projet et innovation"
+                        period: "2016 - 2018",
+                        title: "Classes Préparatoires PCSI/PSI",
+                        institution: "Saint Stanislas, Nantes"
                     }
                 ]
             },
@@ -82,16 +84,22 @@ const translations = {
                 title: "Expérience Professionnelle",
                 items: [
                     {
-                        period: "Mars 2024 - Septembre 2024",
-                        title: "Stagiaire Ingénieur Systèmes",
-                        company: "Safran Landing Systems, Vélizy",
-                        description: "Modélisation et contrôle de systèmes"
+                        period: "2023 - 2025",
+                        title: "Data Engineer en Alternance",
+                        company: "Thales Alenia Space, Cannes",
+                        description: "Automatisation du traitement des données de tests"
                     },
                     {
-                        period: "2023",
-                        title: "Ingénieur Électronique",
-                        company: "Laboratoire GeePs, Gif-sur-Yvette",
-                        description: "Caractérisation de capteurs MEMS, expérimentation et validation de systèmes"
+                        period: "2022",
+                        title: "Data Engineer",
+                        company: "EDF Cap Ampère, Saint-Denis",
+                        description: "Contrôle des programmes de maintenance dans les CNPE"
+                    },
+                    {
+                        period: "2021",
+                        title: "Stage Ingénieur",
+                        company: "EDF CNPE de Chinon",
+                        description: "Optimisation des programmes de maintenance"
                     }
                 ]
             }
@@ -114,47 +122,51 @@ const translations = {
         },
         home: {
             greeting: "Hello!",
-            name: "Sidi DAGNON",
-            title: "System Engineer",
-            bio: "Passionate about Systems Engineering, Modeling, and Dynamic Systems Control."
+            name: "Yann GUEGUEN",
+            title: "Data Engineer",
+            bio: "Passionate about data analysis, AI, Cloud and DevOps."
         },
         about: {
             title: "About",
-            content: "Systems Engineer passionate about modeling and control. I combine technical expertise with strategic thinking to design innovative systems."
+            content: "Data Engineer passionate about AI, Cloud Computing, and DevOps. I combine technical expertise with strategic vision to design innovative and scalable data solutions. Currently working as an apprentice at Thales Alenia Space, developing data pipelines and automating test data processing."
         },
         projects: {
             title: "My Projects",
             viewOnGithub: "View on GitHub",
             foodTracking: {
                 title: "Food Tracking DE/ML",
-                description: "• Data collection via API and AWS S3\n• ETL with Python/DuckDB for data processing\n• Pipeline orchestration with Apache Airflow\n• CI/CD with GitHub Actions and automated deployment\n• Docker containerization for portability\n• ML analysis: clustering and anomaly detection\n• Streamlit interface for visualization and monitoring"
+                description: "• Data collection via API and AWS S3 storage\n• ETL with Python/DuckDB for data processing\n• Pipeline orchestration with Apache Airflow\n• CI/CD with GitHub Actions and automated deployment\n• Docker containerization for portability\n• ML analysis: clustering and anomaly detection\n• Streamlit interface for visualization and monitoring"
             },
             sensorApi: {
                 title: "Sensor API Generator",
-                description: "• FastAPI for generating IoT data\n• Docker containerization and cloud deployment\n• OpenAPI documentation and automated tests\n• Real-time IoT simulation\n• REST interface for sensor configuration\n• Performance and metrics monitoring"
+                description: "• FastAPI API for IoT data generation\n• Docker containerization and cloud deployment\n• OpenAPI documentation and automated testing\n• Real-time IoT environment simulation\n• REST interface for sensor configuration\n• Performance and metrics monitoring"
             },
             smartRevision: {
                 title: "Smart Revision App",
-                description: "• Web app for flashcards and spaced repetition\n• Difficulty-based revision algorithm\n• Clean UI for deck creation and tracking\n• Python backend with storage\n• Responsive frontend in HTML/CSS/JavaScript\n• Progress tracking system"
+                description: "• Web application for creating revision flashcards\n• Difficulty-based spaced repetition system\n• Intuitive user interface for deck creation and management\n• Python backend with data storage\n• Responsive frontend in HTML/CSS/JavaScript\n• Progress tracking and revision monitoring system"
             }
         },
         skills: {
             title: "Skills",
-            SystemsEngineering: {
-                title: "Systems Engineering",
-                items: ["Simulink", "Simscape", "Capella", "IBM DOORS", "UML"]
+            dataEngineering: {
+                title: "Data Engineering",
+                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
             },
             dataScience: {
                 title: "Data Science & AI",
-                items: ["Scikit-Learn", "Machine Learning", "Pandas", "Data Analysis", "Data Visualization"]
+                items: ["TensorFlow", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
             },
-            Programming: {
-                title: "Programming Languages",
-                items: ["Matlab", "Python", "C", "C++"]
+            cloudBigData: {
+                title: "Cloud & Big Data",
+                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
             },
-            Networks: {
-                title: "Networks",
-                items: ["ARINC 429", "AFDX"]
+            devops: {
+                title: "DevOps",
+                items: ["Docker", "CI/CD", "GitHub Actions", "Linux", "Shell/Bash"]
+            },
+            webDev: {
+                title: "Web Development",
+                items: ["JavaScript", "HTML", "CSS"]
             }
         },
         experience: {
@@ -163,22 +175,20 @@ const translations = {
                 title: "Education",
                 items: [
                     {
-                        period: "2022 - 2024",
-                        title: "Master's in Electrical and Control Engineering",
-                        institution: "Université Paris-Saclay, France",
-                        description: "Specialization in Aeronautical Systems"
+                        period: "2023 - 2025",
+                        title: "Master's in Data Science",
+                        institution: "DSTI"
                     },
                     {
-                        period: "2019 - 2022",
-                        title: "Bachelor in Electromechanical Engineering",
-                        institution: "Université Mentouri, Algeria",
-                        description: "Strong foundation in electromechanical systems"
+                        period: "2018 - 2021",
+                        title: "Engineering Degree - SINERGIE Program",
+                        institution: "ENSEM Nancy",
+                        description: "Specialization in computer science and safety"
                     },
                     {
-                        period: "2024 - 2025",
-                        title: "Entrepreneurship and Management",
-                        institution: "Université Paris-Saclay",
-                        description: "Skills in project management and innovation"
+                        period: "2016 - 2018",
+                        title: "Preparatory Classes PCSI/PSI",
+                        institution: "Saint Stanislas, Nantes"
                     }
                 ]
             },
@@ -186,16 +196,22 @@ const translations = {
                 title: "Professional Experience",
                 items: [
                     {
-                        period: "2024",
-                        title: "System Engineer Intern",
-                        company: "Safran Landing Systems, Vélizy",
-                        description: "System modeling and control"
+                        period: "2023 - 2025",
+                        title: "Data Engineer Apprentice",
+                        company: "Thales Alenia Space, Cannes",
+                        description: "Automation of test data processing"
                     },
                     {
-                        period: "2023",
-                        title: "Electronic Engineer",
-                        company: "GeePs Laboratory, Gif-sur-Yvette",
-                        description: "MEMS sensor characterization, experimentation and validation"
+                        period: "2022",
+                        title: "Data Engineer",
+                        company: "EDF Cap Ampère, Saint-Denis",
+                        description: "Control of maintenance programs in nuclear power plants"
+                    },
+                    {
+                        period: "2021",
+                        title: "Engineering Intern",
+                        company: "EDF CNPE de Chinon",
+                        description: "Optimization of maintenance programs"
                     }
                 ]
             }
