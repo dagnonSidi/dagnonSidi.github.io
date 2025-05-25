@@ -37,7 +37,7 @@ const translations = {
         skills: {
             title: "Compétences",
             dataEngineering: {
-                title: "Data Engineering",
+                title: "Ingénierie Systemèes",
                 items: ["Simulink", "Simscape", "Capella", "IBM DOORS", "UML"]
             },
             dataScience: {
@@ -45,7 +45,7 @@ const translations = {
                 items: ["Scikit-Learn", "Machine Learning", "Pandas", "Analyse de Données", "Visualisation"]
             },
             cloudBigData: {
-                title: "Cloud & Big Data",
+                title: "Langages de Programmation",
                 items: ["Matlab", "Python", "C", "C++"]
             },
             devops: {
