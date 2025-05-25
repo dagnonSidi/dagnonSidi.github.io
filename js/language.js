@@ -39,8 +39,8 @@ function updateContent() {
 
     // Update meta tags
     document.title = currentLanguage === 'fr' ? 
-        'Gueguen Yann - Portfolio' : 
-        'Gueguen Yann - Portfolio';
+        'DAGNON Sidi - Portfolio' : 
+        'DAGNON Sidi - Portfolio';
 }
 
 // Initialize language on page load
