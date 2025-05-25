@@ -10,13 +10,13 @@ const translations = {
         },
         home: {
             greeting: "Bonjour !",
-            name: "Yann GUEGUEN",
-            title: "Data Engineer",
-            bio: "Passionné par l'analyse de données, l'IA, le Cloud et le DevOps."
+            name: "Sidi DAGNON",
+            title: "Ingénieur Systèmes",
+            bio: "Passionné par l'ingénierie Systèmes, la modélisation, et le contrôle de systèmes dynamiques."
         },
         about: {
             title: "À Propos",
-            content: "Data Engineer passionné par l'IA, le Cloud Computing et le DevOps. Je combine expertise technique et vision stratégique pour concevoir des solutions data innovantes et scalables. Actuellement en alternance chez Thales Alenia Space, je développe des pipelines de données et automatise le traitement des données de tests."
+            content: "Ingénieur Systèmes passionné par l'ingénierie système. Je combine expertise technique et vision stratégique pour concevoir des systèmes innovants."
         },
         projects: {
             title: "Mes Projets",
@@ -38,19 +38,19 @@ const translations = {
             title: "Compétences",
             dataEngineering: {
                 title: "Data Engineering",
-                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
+                items: ["Simulink", "Simscape", "Capella", "IBM DOORS", "UML"]
             },
             dataScience: {
                 title: "Data Science & IA",
-                items: ["TensorFlow", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
+                items: ["Scikit-Learn", "Machine Learning", "Pandas", "Analyse de Données", "Visualisation"]
             },
             cloudBigData: {
                 title: "Cloud & Big Data",
-                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
+                items: ["Matlab", "Python", "C", "C++"]
             },
             devops: {
                 title: "DevOps",
-                items: ["Docker", "CI/CD", "GitHub Actions", "Linux", "Shell/Bash"]
+                items: ["ARINC 429", "AFDX"]
             },
             webDev: {
                 title: "Développement Web",
@@ -63,20 +63,22 @@ const translations = {
                 title: "Formation",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Master Data Science",
-                        institution: "DSTI"
+                        period: "2022 - 2024",
+                        title: "Master Electronique, Énergie Électrique et Automatique",
+                        institution: "Université Paris-Saclay",
+                        description: "Spécialisation en systèmes aéronautiques"
                     },
                     {
-                        period: "2018 - 2021",
-                        title: "Diplôme d'Ingénieur - Filière SINERGIE",
-                        institution: "ENSEM Nancy",
-                        description: "Spécialisation en informatique et sûreté"
+                        period: "2019 - 2022",
+                        title: "Licence Électromécanique",
+                        institution: "Université Mentouri, Algérie",
+                        description: "Bases solides en systèmes électromécaniques"
                     },
                     {
-                        period: "2016 - 2018",
-                        title: "Classes Préparatoires PCSI/PSI",
-                        institution: "Saint Stanislas, Nantes"
+                        period: "2024 - 2025",
+                        title: "Management Entrepreneurial",
+                        institution: "Université Paris-Saclay",
+                        description: "Compétences en gestion de projet et innovation"
                     }
                 ]
             },
@@ -90,16 +92,16 @@ const translations = {
                         description: "Automatisation du traitement des données de tests"
                     },
                     {
-                        period: "2022",
-                        title: "Data Engineer",
-                        company: "EDF Cap Ampère, Saint-Denis",
-                        description: "Contrôle des programmes de maintenance dans les CNPE"
+                        period: "Mars 2024 - Septembre 2024",
+                        title: "Stagiaire Ingénieur Systèmes",
+                        company: "Safran Landing Systems, Vélizy",
+                        description: "Modélisation et contrôle de systèmes"
                     },
                     {
-                        period: "2021",
-                        title: "Stage Ingénieur",
-                        company: "EDF CNPE de Chinon",
-                        description: "Optimisation des programmes de maintenance"
+                        period: "2023",
+                        title: "Ingénieur Électronique",
+                        company: "Laboratoire GeePs, Gif-sur-Yvette",
+                        description: "Caractérisation de capteurs MEMS, expérimentation et validation de systèmes"
                     }
                 ]
             }
@@ -122,13 +124,13 @@ const translations = {
         },
         home: {
             greeting: "Hello!",
-            name: "Yann GUEGUEN",
-            title: "Data Engineer",
-            bio: "Passionate about data analysis, AI, Cloud and DevOps."
+            name: "Sidi DAGNON",
+            title: "System Engineer",
+            bio: "Passionate about Systems Engineering, Modeling, and Dynamic Systems Control."
         },
         about: {
             title: "About",
-            content: "Data Engineer passionate about AI, Cloud Computing, and DevOps. I combine technical expertise with strategic vision to design innovative and scalable data solutions. Currently working as an apprentice at Thales Alenia Space, developing data pipelines and automating test data processing."
+            content: "Systems Engineer passionate about modeling and control. I combine technical expertise with strategic thinking to design innovative systems."
         },
         projects: {
             title: "My Projects",
@@ -150,19 +152,19 @@ const translations = {
             title: "Skills",
             dataEngineering: {
                 title: "Data Engineering",
-                items: ["Python", "SQL", "PySpark", "Apache Airflow", "MongoDB", "Neo4j"]
+                items: ["Simulink", "Simscape", "Capella", "IBM DOORS", "UML"]
             },
             dataScience: {
                 title: "Data Science & AI",
-                items: ["TensorFlow", "Machine Learning", "Deep Learning", "Data Analysis", "Data Visualization"]
+                items: ["Scikit-Learn", "Machine Learning", "Pandas", "Data Analysis", "Data Visualization"]
             },
             cloudBigData: {
                 title: "Cloud & Big Data",
-                items: ["AWS", "Databricks", "Apache Spark", "Hadoop"]
+                items: ["Matlab", "Python", "C", "C++"]
             },
             devops: {
                 title: "DevOps",
-                items: ["Docker", "CI/CD", "GitHub Actions", "Linux", "Shell/Bash"]
+                items: ["ARINC 429", "AFDX"]
             },
             webDev: {
                 title: "Web Development",
@@ -175,20 +177,22 @@ const translations = {
                 title: "Education",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Master's in Data Science",
-                        institution: "DSTI"
+                        period: "2022 - 2024",
+                        title: "Master's in Electrical and Control Engineering",
+                        institution: "Université Paris-Saclay, France",
+                        description: "Specialization in Aeronautical Systems"
                     },
                     {
-                        period: "2018 - 2021",
-                        title: "Engineering Degree - SINERGIE Program",
-                        institution: "ENSEM Nancy",
-                        description: "Specialization in computer science and safety"
+                        period: "2019 - 2022",
+                        title: "Bachelor in Electromechanical Engineering",
+                        institution: "Université Mentouri, Algeria",
+                        description: "Strong foundation in electromechanical systems"
                     },
                     {
-                        period: "2016 - 2018",
-                        title: "Preparatory Classes PCSI/PSI",
-                        institution: "Saint Stanislas, Nantes"
+                        period: "2024 - 2025",
+                        title: "Entrepreneurship and Management",
+                        institution: "Université Paris-Saclay",
+                        description: "Skills in project management and innovation"
                     }
                 ]
             },
@@ -196,16 +200,16 @@ const translations = {
                 title: "Professional Experience",
                 items: [
                     {
-                        period: "2023 - 2025",
-                        title: "Data Engineer Apprentice",
-                        company: "Thales Alenia Space, Cannes",
-                        description: "Automation of test data processing"
+                        period: "2024",
+                        title: "System Engineer Intern",
+                        company: "Safran Landing Systems, Vélizy",
+                        description: "System modeling and control"
                     },
                     {
-                        period: "2022",
-                        title: "Data Engineer",
-                        company: "EDF Cap Ampère, Saint-Denis",
-                        description: "Control of maintenance programs in nuclear power plants"
+                        period: "2023",
+                        title: "Electronic Engineer",
+                        company: "GeePs Laboratory, Gif-sur-Yvette",
+                        description: "MEMS sensor characterization, experimentation and validation"
                     },
                     {
                         period: "2021",
