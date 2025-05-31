@@ -132,7 +132,7 @@ const translations = {
             viewOnGithub: "View on GitHub",
             foodTracking: {
                 title: "Food Tracking DE/ML",
-                description: "• Data collection via API and AWS S3 storage\n• ETL with Python/DuckDB for data processing\n• Pipeline orchestration with Apache Airflow\n• CI/CD with GitHub Actions and automated deployment\n• Docker containerization for portability\n• ML analysis: clustering and anomaly detection\n• Streamlit interface for visualization and monitoring"
+                description: "• Thermal modeling of the hot water tank (energy equation).\n• Simulation of PV production over one week with a 10-minute time step.\n• Implementation of the Simulink model with energy priority management.\n• Calculation of the hot water volume based on injected power.\n• Estimation of electricity purchase/reduction from the grid."
             },
             sensorApi: {
                 title: "Sensor API Generator",
