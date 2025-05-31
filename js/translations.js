@@ -23,7 +23,7 @@ const translations = {
             viewOnGithub: "Voir sur GitHub",
             foodTracking: {
                 title: "Food Tracking DE/ML",
-                description: "• Collecte de données via API et stockage sur AWS S3\n• ETL avec Python/DuckDB pour le traitement des données\n• Orchestration des pipelines avec Apache Airflow\n• CI/CD avec GitHub Actions et déploiement automatisé\n• Containerisation avec Docker pour la portabilité\n• Analyse ML : clustering et détection d'anomalies\n• Interface Streamlit pour visualisation et monitoring"
+                description: "• Modélisation thermique du ballon d’eau chaude (équation énergétique) \n• Simulation de la production PV sur une semaine avec pas de 10 minutes.\n• Orchestration des pipelines avec Apache Airflow\n• Implémentation du modèle Simulink avec gestion des priorités énergétiques.\n• Containerisation avec Docker pour la portabilité\n• Calcul du volume d’eau chaude produit en fonction de la puissance injectée.\n• Estimation de l’achat/réduction de consommation électrique réseau."
             },
             sensorApi: {
                 title: "Sensor API Generator",
