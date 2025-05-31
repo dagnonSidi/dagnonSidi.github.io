@@ -22,7 +22,7 @@ const translations = {
             title: "Mes Projets",
             viewOnGithub: "Voir sur GitHub",
             foodTracking: {
-                title: "Food Tracking DE/ML",
+                title: "Modélisation et Optimisation d’un Système Photovoltaïque",
                 description: "• Modélisation thermique du ballon d’eau chaude (équation énergétique) \n• Simulation de la production PV sur une semaine avec pas de 10 minutes.\n• Orchestration des pipelines avec Apache Airflow\n• Implémentation du modèle Simulink avec gestion des priorités énergétiques.\n• Containerisation avec Docker pour la portabilité\n• Calcul du volume d’eau chaude produit en fonction de la puissance injectée.\n• Estimation de l’achat/réduction de consommation électrique réseau."
             },
             sensorApi: {
