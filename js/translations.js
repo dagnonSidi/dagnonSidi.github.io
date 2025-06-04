@@ -131,7 +131,7 @@ const translations = {
             title: "My Projects",
             viewOnGithub: "View on GitHub",
             foodTracking: {
-                title: "Food Tracking DE/ML",
+                title: "Photovoiltaic system Modeling and Optimization",
                 description: "• Thermal modeling of the hot water tank (energy equation).\n• Simulation of PV production over one week with a 10-minute time step.\n• Implementation of the Simulink model with energy priority management.\n• Calculation of the hot water volume based on injected power.\n• Estimation of electricity purchase/reduction from the grid."
             },
             sensorApi: {
