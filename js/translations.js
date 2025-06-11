@@ -31,7 +31,7 @@ const translations = {
             },
             smartRevision: {
                 title: "Smart Revision App",
-                description: "• Application web de création de cartes de révision\n• Système de répétition espacée basé sur la difficulté\n• Interface utilisateur intuitive pour la création et gestion des decks\n• Backend Python avec stockage des données\n• Frontend responsive en HTML/CSS/JavaScript\n• Système de progression et de suivi des révisions"
+                description: "• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier"
             }
         },
         skills: {
