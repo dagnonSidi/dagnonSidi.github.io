@@ -27,7 +27,7 @@ const translations = {
             },
             sensorApi: {
                 title: "Sensor API Generator",
-                description: "• API FastAPI pour la génération de données IoT\n• Containerisation Docker et déploiement cloud\n• Documentation OpenAPI et tests automatisés\n• Simulation en temps réel d'environnements IoT\n• Interface REST pour la configuration des capteurs\n• Monitoring des performances et des métriques"
+                description: "• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier"
             },
             smartRevision: {
                 title: "Smart Revision App",
