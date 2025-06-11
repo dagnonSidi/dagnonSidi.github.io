@@ -136,11 +136,11 @@ const translations = {
             },
             sensorApi: {
                 title: "Sensor API Generator",
-                description: "• FastAPI API for IoT data generation\n• Docker containerization and cloud deployment\n• OpenAPI documentation and automated testing\n• Real-time IoT environment simulation\n• REST interface for sensor configuration\n• Performance and metrics monitoring"
+                description: "• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier"
             },
             smartRevision: {
                 title: "Smart Revision App",
-                description: "• Web application for creating revision flashcards\n• Difficulty-based spaced repetition system\n• Intuitive user interface for deck creation and management\n• Python backend with data storage\n• Responsive frontend in HTML/CSS/JavaScript\n• Progress tracking and revision monitoring system"
+                description: "• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier\n• A Modifier"
             }
         },
         skills: {
